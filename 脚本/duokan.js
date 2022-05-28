@@ -3,7 +3,7 @@ const axios = require("axios");
 axios.defaults.timeout = 3000;
 const timeAsync =  ms => new Promise(resolve => setTimeout(resolve, ms));
 let result = "【多看阅读每日任务】：";
-//let number = 0;
+//let number = 0;serviceToken=2.0&V1_micloud&1:F-K2s_d6eACo_zq0FZ5vWA:+Ik9EVP0KJPpsCZmf8MaYwzBnp+Dxj0lRtekAHmMn/7AXeMIA0sgpCPTXiEJC4FcT6WQoBduEmA5muP/ohK6lIJirJ8EmE5ZtbrMD6Xl5+RN1s5qmd6QMXP7QIfFsFImgCwvocmmsCcbAwLICFUgP10tPGff8A42JhCyug0L36mhkuKvP4aEbvN4Ud/nWT7wAr9a9DOG94Ov4BwYsAXjjA==&o9232NsM/F7/37MrhtYkGQ==; cUserId=a83KTKQOo4lEjOamdbJRkakIfz
 header = {
   headers: {
     cookie: config.duokan.cookie,
